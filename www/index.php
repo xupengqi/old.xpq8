@@ -56,7 +56,7 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = 'c:/dev/git/xpq/system';
+	$system_path = 'C:/Dev/xpq8/system';
 
 /*
  *---------------------------------------------------------------
@@ -72,7 +72,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = 'c:/dev/git/xpq/application';
+	$application_folder = 'C:/Dev/xpq8/application';
 
 /*
  * --------------------------------------------------------------------
