@@ -6,5 +6,5 @@
 	<p>Tag: ID, Name</p>
 	<p>TorrentTag: TorrentID, TagID</p>
 
-	<code></code>
+	<code><a href="/admin/logout">Logout</a></code>
 </div>
