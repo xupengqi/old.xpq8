@@ -15,7 +15,8 @@
 
 	<link rel="stylesheet" type="text/css" href="/c/h5bp.core.css" />
 	<link rel="stylesheet" type="text/css" href="/c/xpq8.core.css" />
-
+	<link rel="stylesheet" type="text/css" href="/c/xpq8.core.light.css" />
+	<?php echo $css; ?>
 	<script src="/j/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
@@ -26,12 +27,14 @@
 		<a href="#">other</a>
 		<a href="#">other</a>
 	</header>
-	<div role="main" id="container">
+	<?php if($container) { ?>
+		<div role="main" id="container">
+	<?php } ?>
 		<?php echo $content; ?>
-		<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
-	</div>
-	<footer>
-	</footer>
+	<?php if($container) { ?>
+			<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
+		</div>
+	<?php } ?>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/j/jquery-1.7.2.min.js"><\/script>')</script>

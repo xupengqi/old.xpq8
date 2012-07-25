@@ -6,7 +6,6 @@ body {
 	margin: 0 40px;
 	font: 13px/20px normal Helvetica, Arial, sans-serif;
 	color: #4F5155;
-	background-image: url("/i/xpq8.core.bg.dark.png");
 }
 
 h1 {
@@ -32,24 +31,7 @@ p.footer{
 #container{
 	border: 1px solid #D0D0D0;
 	box-shadow: 0 0 8px #D0D0D0;
-	border-radius: 3px;
+	border-radius: 5px;
 	padding: 0 15px 0 15px;
-	background-image: url("/i/xpq8.core.bg.light.png");
 }
 
-#header {
-	margin: 10px;
-}
-#header a {
-    color: #999999;
-    font: 40px Helvetica,Arial,Sans-Serif;
-    letter-spacing: -2px;
-    text-decoration: none;
-    text-shadow: 0 3px 8px #2A2A2A;
-    padding-right: 20px;
-}
-#header a.home {
-	color: #222222;
-	text-shadow: 0px 2px 3px #555;
-	font: 60px Tahoma,Helvetica,Arial,Sans-Serif;
-}

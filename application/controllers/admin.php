@@ -1,6 +1,6 @@
 <?php 
 
-class Admin extends CI_Controller {
+class Admin extends XPQ_Controller {
 
    public function __construct()
    {
@@ -10,35 +10,38 @@ class Admin extends CI_Controller {
 
 	public function index()
 	{
-      	$this->load->helper('form');
-      	$this->load->helper('url');
-
-		$data_master['content'] = $this->load->view('login', '', true);
-
 		if ( isset($_SESSION['email_address']) ) {
-			$data_master['content'] = $this->load->view('admin', '', true);
+			$this->data_master['content'] = $this->load->view('admin', '', true);
 		}
+		else{
+      		$this->load->helper('form');
+      		$this->load->helper('url');
+			$this->load->library('form_validation');
 
-		$this->load->library('form_validation');
-		$this->form_validation->set_rules('email_address', 'Email Address', 'valid_email|required');
-		$this->form_validation->set_rules('password', 'Password', 'required|min_length[4]');
-		if ( $this->form_validation->run() !== false ) {
-			// then validation passed. Get from db
-			$this->load->model('admin_model');
-			$res = $this
-				->admin_model
-				->verify_user(
-					$this->input->post('email_address'), 
-					$this->input->post('password')
-					);
+			$this->data_master['content'] = $this->load->view('login', '', true);
+			$this->data_master['css'] = '<link rel="stylesheet" type="text/css" href="/c/xpq8.form.login.css" />';
+			$this->data_master['container'] = false;
 
-			if ( $res !== false ) {
-				$_SESSION['email_address'] = $this->input->post('email_address');
-				redirect('admin');
+			$this->form_validation->set_rules('email_address', 'Email Address', 'valid_email|required');
+			$this->form_validation->set_rules('password', 'Password', 'required|min_length[4]');
+			if ( $this->form_validation->run() !== false ) {
+				// then validation passed. Get from db
+				$this->load->model('admin_model');
+				$res = $this
+					->admin_model
+					->verify_user(
+						$this->input->post('email_address'), 
+						$this->input->post('password')
+						);
+
+				if ( $res !== false ) {
+					$_SESSION['email_address'] = $this->input->post('email_address');
+					redirect('admin');
+				}
 			}
 		}
 
-		$this->load->view('templates/master', $data_master);
+		$this->load->view('templates/master', $this->data_master);
 	}
 
 	public function logout() {

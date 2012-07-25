@@ -1,0 +1,25 @@
+
+body {
+	background-image: url("/i/xpq8.core.bg.dark.png");
+}
+
+#container{
+	background-image: url("/i/xpq8.core.bg.light.jpg");
+}
+
+#header {
+	margin: 10px;
+}
+#header a {
+    color: #999999;
+    font: 40px Helvetica,Arial,Sans-Serif;
+    letter-spacing: -2px;
+    text-decoration: none;
+    text-shadow: 0 3px 8px #2A2A2A;
+    padding-right: 20px;
+}
+#header a.home {
+	color: #222222;
+	text-shadow: 0px 2px 3px #555;
+	font: 60px Tahoma,Helvetica,Arial,Sans-Serif;
+}

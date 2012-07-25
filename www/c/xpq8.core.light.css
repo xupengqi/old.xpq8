@@ -1,0 +1,41 @@
+
+body {
+	background-image: url("/i/xpq8.core.bg.light.jpg");
+}
+
+#container{
+	background: white;
+}
+
+#header {
+	margin: 10px;
+}
+#header a {
+    color: #999999;
+    font: 40px Helvetica,Arial,Sans-Serif;
+    letter-spacing: -2px;
+    text-decoration: none;
+    text-shadow: 0 3px 8px #2A2A2A;
+    padding-right: 20px;
+}
+#header a.home {
+	color: #222222;
+	text-shadow: 0px 2px 3px #555;
+	font: 60px Tahoma,Helvetica,Arial,Sans-Serif;
+}
+
+#header a {
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+    padding: 0px 10px 5px 0px;
+	color: #7cbcd6;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+
+#header a.home {
+	color: rgba(26,89,120,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
