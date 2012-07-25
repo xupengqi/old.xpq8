@@ -1,7 +1,7 @@
 <?php 
 
 class XPQ_Controller extends CI_Controller {
-	var $data_master = [];
+	var $data_master;
 
 	public function __construct()
 	{
