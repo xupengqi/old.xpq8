@@ -1,0 +1,234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"el",
+				"elapsed_time"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Dev/Apache2.2/conf/httpd.conf",
+			"settings":
+			{
+				"buffer_size": 17938,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/.htaccess",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Dev/git/xpq/system/fonts/index.html",
+		"/C/Dev/git/xpq/application/config/routes.php",
+		"/C/Dev/git/xpq/application/controllers/home.php",
+		"/C/Dev/git/xpq/application/views/home.php",
+		"/C/Dev/git/xpq/application/views/templates/master.php",
+		"/C/Dev/git/xpq/application/controllers/error_404.php",
+		"/C/Dev/git/xpq/application/errors/error_404.php",
+		"/C/Dev/git/xpq/application/controllers/welcome.php",
+		"/C/Dev/git/xpq/application/views/welcome_message.php",
+		"/C/Dev/git/xpq/application/views/templates/header.php",
+		"/C/Dev/git/xpq/application/.htaccess",
+		"/C/Dev/git/xpq/application/errors/index.html",
+		"/C/Dev/git/xpq/application/controllers/index.html",
+		"/C/Users/XPQ/AppData/Roaming/runic games/torchlight/save/2.svt",
+		"/C/Users/XPQ/AppData/Roaming/runic games/torchlight/save/1.SVT",
+		"/C/Dev/git/xpq/application/config/config.php",
+		"/C/Users/peng.xu/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rewrite_module",
+			"mod_rewri",
+			"ErrorDocument",
+			"rewrit",
+			"G.o.l.d",
+			"g.o.l.d"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Dev/Apache2.2/conf/httpd.conf",
+					"settings":
+					{
+						"buffer_size": 17938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8977,
+								8977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2878.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/.htaccess",
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.hex_viewer_inspector":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true
+}
