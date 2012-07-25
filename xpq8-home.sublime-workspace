@@ -12,18 +12,34 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Dev/Apache2.2/conf/httpd.conf",
+			"file": "application/controllers/admin.php",
 			"settings":
 			{
-				"buffer_size": 17938,
+				"buffer_size": 1436,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/.htaccess",
+			"file": "application/core/XPQ_Controller.php",
 			"settings":
 			{
-				"buffer_size": 323,
+				"buffer_size": 255,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/templates/master.php",
+			"settings":
+			{
+				"buffer_size": 1446,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/config/config.php",
+			"settings":
+			{
+				"buffer_size": 12800,
 				"line_ending": "Windows"
 			}
 		}
@@ -52,6 +68,24 @@
 	},
 	"file_history":
 	[
+		"/C/Dev/xpq8/system/core/Controller.php",
+		"/C/Dev/xpq8/application/views/login.php",
+		"/C/Dev/xpq8/www/c/xpq8.form.login.css",
+		"/C/Dev/xpq8/application/views/admin.php",
+		"/C/Dev/xpq8/www/c/style.css",
+		"/C/Users/XPQ/Downloads/LoginRegistrationForm/css/style.css",
+		"/C/Dev/xpq8/www/c/xpq8.core.light.css",
+		"/C/Dev/xpq8/www/c/xpq8.core.css",
+		"/C/Dev/xpq8/www/c/xpq8.core.dark.css",
+		"/C/Users/XPQ/Downloads/LoginRegistrationForm/index.html",
+		"/C/Dev/xpq8/application/config/config.php",
+		"/C/Users/XPQ/Downloads/LoginRegistrationForm/images/ImageAttribution.txt",
+		"/C/Dev/xpq8/www/.htaccess",
+		"/C/Dev/xpq8/www/index.php",
+		"/C/Dev/xpq8/application/controllers/admin.php",
+		"/C/Dev/xpq8/application/models/admin_model.php",
+		"/C/Dev/Apache2.2/conf/httpd.conf",
+		"/C/Dev/xpq8/application/models/admin",
 		"/C/Dev/git/xpq/system/fonts/index.html",
 		"/C/Dev/git/xpq/application/config/routes.php",
 		"/C/Dev/git/xpq/application/controllers/home.php",
@@ -86,6 +120,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data_master",
+			"input",
+			"username",
+			"h1",
+			"    \n",
+			"h1",
+			"change_link",
+			"#login",
+			"login",
+			"container_demo",
 			"rewrite_module",
 			"mod_rewri",
 			"ErrorDocument",
@@ -109,59 +153,111 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Dev/Apache2.2/conf/httpd.conf",
+					"file": "application/controllers/admin.php",
 					"settings":
 					{
-						"buffer_size": 17938,
+						"buffer_size": 1436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8977,
-								8977
+								1240,
+								1240
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2878.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "www/.htaccess",
+					"file": "application/core/XPQ_Controller.php",
 					"settings":
 					{
-						"buffer_size": 323,
+						"buffer_size": 255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								294,
-								294
+								193,
+								193
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/views/templates/master.php",
+					"settings":
+					{
+						"buffer_size": 1446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1429,
+								1429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/config/config.php",
+					"settings":
+					{
+						"buffer_size": 12800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3485,
+								3485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1303.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
