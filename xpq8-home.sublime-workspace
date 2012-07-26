@@ -12,34 +12,26 @@
 	"buffers":
 	[
 		{
-			"file": "application/controllers/admin.php",
+			"file": "www/c/xpq8.form.login.css",
 			"settings":
 			{
-				"buffer_size": 1436,
+				"buffer_size": 4854,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/core/XPQ_Controller.php",
+			"file": "www/index.php",
 			"settings":
 			{
-				"buffer_size": 255,
+				"buffer_size": 6381,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/views/templates/master.php",
+			"file": "www/index_production.php",
 			"settings":
 			{
-				"buffer_size": 1446,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/config/config.php",
-			"settings":
-			{
-				"buffer_size": 12800,
+				"buffer_size": 6384,
 				"line_ending": "Windows"
 			}
 		}
@@ -68,6 +60,10 @@
 	},
 	"file_history":
 	[
+		"/C/Dev/xpq8/application/controllers/admin.php",
+		"/C/Dev/xpq8/application/core/XPQ_Controller.php",
+		"/C/Dev/xpq8/application/views/templates/master.php",
+		"/C/Dev/xpq8/application/config/config.php",
 		"/C/Dev/xpq8/system/core/Controller.php",
 		"/C/Dev/xpq8/application/views/login.php",
 		"/C/Dev/xpq8/www/c/xpq8.form.login.css",
@@ -78,11 +74,9 @@
 		"/C/Dev/xpq8/www/c/xpq8.core.css",
 		"/C/Dev/xpq8/www/c/xpq8.core.dark.css",
 		"/C/Users/XPQ/Downloads/LoginRegistrationForm/index.html",
-		"/C/Dev/xpq8/application/config/config.php",
 		"/C/Users/XPQ/Downloads/LoginRegistrationForm/images/ImageAttribution.txt",
 		"/C/Dev/xpq8/www/.htaccess",
 		"/C/Dev/xpq8/www/index.php",
-		"/C/Dev/xpq8/application/controllers/admin.php",
 		"/C/Dev/xpq8/application/models/admin_model.php",
 		"/C/Dev/Apache2.2/conf/httpd.conf",
 		"/C/Dev/xpq8/application/models/admin",
@@ -153,29 +147,30 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "application/controllers/admin.php",
+					"file": "www/c/xpq8.form.login.css",
 					"settings":
 					{
-						"buffer_size": 1436,
+						"buffer_size": 4854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1240,
-								1240
+								3034,
+								3034
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -185,44 +180,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "application/core/XPQ_Controller.php",
+					"file": "www/index.php",
 					"settings":
 					{
-						"buffer_size": 255,
+						"buffer_size": 6381,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "application/views/templates/master.php",
-					"settings":
-					{
-						"buffer_size": 1446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1429,
-								1429
+								891,
+								891
 							]
 						],
 						"settings":
@@ -237,27 +206,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "application/config/config.php",
+					"buffer": 2,
+					"file": "www/index_production.php",
 					"settings":
 					{
-						"buffer_size": 12800,
+						"buffer_size": 6384,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3485,
-								3485
+								2084,
+								2084
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1303.0,
+						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
